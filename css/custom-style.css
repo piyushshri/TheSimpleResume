@@ -1,0 +1,91 @@
+.mainContainer{
+    width: 100%;
+    height: 100vh;
+    padding: 0px;
+    background-color: #fffef2;
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+}
+.sidebar-left{
+    width: 30%;
+    height: 100%;
+    background-color: cadetblue;
+    color:aliceblue;
+}
+.personal-info-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 90vh;
+    /* border: 1px dotted; */
+    width: 75%;
+    flex-direction: column;
+}
+.personal-info{
+    height: 30%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px dotted; */
+}
+.info-first-name, .info-last-name{
+    font-size: 40px;
+}
+.info-first-name{
+    font-weight: 600;
+    color: aliceblue;
+}
+.info-last-name{
+    font-weight: 600;
+    /* color: black; */
+}
+.info-tagline{
+    color: aliceblue;
+}
+.description-container{
+    height: 60%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px dotted; */
+    align-items: baseline;
+    justify-content: flex-end;
+}
+.description{
+    height: 40%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px dotted; */
+}
+.main-content{
+    height: 100vh;
+    width: 70%;
+    background-image: url("../images/homepage-photo.JPG");
+    display: flex;
+    background-size: cover;
+}
+.know-more-space{
+    height: 100vh;
+    width: 50%;
+    /* border: 1px white dotted; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-buttons-space{
+    height: 100vh;
+    width: 50%;
+    /* border: 1px white dotted; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.social-buttons{
+    /* border: 1px white dotted; */
+    height: 7vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
