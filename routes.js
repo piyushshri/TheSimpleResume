@@ -27,6 +27,10 @@ appModule.config(function ($routeProvider, $locationProvider) {
         templateUrl: 'view/education.html',
         controller: 'EducationController'
     }).
+    when('/achievements', {
+        templateUrl: 'view/achievements.html',
+        controller: 'AchievementsController'
+    }).
     when('/personal-info', {
         templateUrl: 'view/personal-info.html',
         controller: 'PersonalInfoController'

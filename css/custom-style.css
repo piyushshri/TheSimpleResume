@@ -139,7 +139,7 @@
     border-style:groove;
 }
 
-.sk-content, .ex-content, .pr-content {
+.sk-content, .ex-content, .pr-content, .ed-content, .ac-content, .pi-content {
     height: 80%;
     /* border: 1px dotted black; */
     margin: 20px;
@@ -148,7 +148,7 @@
     align-items: center;
 }
 
-.sk-header, .ex-header, .pr-header {
+.sk-header, .ex-header, .pr-header, .ed-header, .ac-header, .pi-header {
     height: 10vh;
     /* border: 1px dotted black; */
     font-family: 'Cedarville Cursive', cursive;
